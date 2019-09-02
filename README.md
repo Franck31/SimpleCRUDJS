@@ -1,5 +1,5 @@
-# SimpelCRUDJS
-A simple CRUD using nodejs and mysql 
+# SimpleCRUDJS / REST 
+A simple CRUD / REST -  using nodejs and mysql 
 
 Hola, esta es una app simple que instancia una API-REST sobre NodeJs con Express usando un MySQL como motor de base de datos
 <br>
