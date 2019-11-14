@@ -3,11 +3,15 @@ sudo apt-get install curl mysql-server
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 sudo apt-get install nodejs
 npm init --yes
-npm install  
+npm install 
 #Instalamo el WebServer(express), MySQL Driver Con NPM
 npm install express --save
 npm install mysql --save
 npm install body-parser --save
+#cargamos las dependencias de pythono
+apt install pip
+pip install flask
+pipi install requests
 #cargamo las tablas con los sql
 mysql -uroot -proot -e 'create database arqweb;'
 #mysql -uroot -proot -e 'use arqweb;'
@@ -17,3 +21,4 @@ mysql -uroot -proot arqweb -e 'source sql/estructura.sql;'
 mysql -uroot -proot arqweb -e 'source sql/data.sql;'
 #Esto startea el WebServer con la API en el Puerto3000
 npm start
+python server.py
