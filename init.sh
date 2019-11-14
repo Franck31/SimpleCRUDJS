@@ -11,7 +11,7 @@ npm install body-parser --save
 #cargamos las dependencias de pythono
 apt install pip
 pip install flask
-pipi install requests
+pip install requests
 #cargamo las tablas con los sql
 mysql -uroot -proot -e 'create database arqweb;'
 #mysql -uroot -proot -e 'use arqweb;'
